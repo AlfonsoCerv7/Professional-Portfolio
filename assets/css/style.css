@@ -175,18 +175,17 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+
 }
 
 .step-text p {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
   font-size: 18px;
+  text-decoration: underline;
+  text-decoration-color: var(--tertiary-color);
+  text-decoration-line: underline;
 }
 
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: var(--secondary-color);
-}
 
 .step {
   margin: 50px auto;
@@ -335,7 +334,17 @@ section {
 
 .step-img img {
   max-width: 100%;
+  opacity: .5;
+  border: 5px solid var(--primary-color);
 }
+
+.step-img img:hover{
+opacity: 1;
+}
+.step-img:active{
+  content: url(https://m.media-amazon.com/images/I/61nt34iuBkL._SS500_.jpg);
+}
+
 
 .step-img {
   flex: 1 12%;
@@ -344,6 +353,7 @@ section {
 
 .step-text {
   flex: 12;
+  justify-content: baseline;
 }
 
 .trainers {
@@ -355,7 +365,7 @@ section {
 }
 
 .steps {
-  background: var(--primary-color);
+  background: whitesmoke;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
