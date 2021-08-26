@@ -1,3 +1,21 @@
 {
-    "name": "professional-portfolio"
+  "name": "professional-portfolio",
+  "description": "Assignment for challenge 2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server --files 'assets/css/style.css'",
+    "share": "browser-sync start --proxy 'myproject.dev' --files 'assets/css/style.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfonsoCerv7/Professional-Portfolio.git"
+  },
+  "author": "AlfonsoCerv7",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AlfonsoCerv7/Professional-Portfolio/issues"
+  },
+  "homepage": "https://github.com/AlfonsoCerv7/Professional-Portfolio#readme"
 }
